@@ -8,43 +8,43 @@ color: #FF0000;
 */
 
 body {
- background-image: url(./images/background.png);
-}
-
-/*TITLE*/
-
-#title {
-font-family: 'Lora';
-color: #00008B;
-}
-
-.movieImage {
- width: 200px;
- border: solid #FF0000 4px;
-}
-
-/*BUTTON*/
-#new-quote-button {
-  font-family: 'Lora';
-  padding: 30px;
-}
-
-.btn {
-  background-color: #00008B;
-  color: white;
-}
-
-/*QUOTE BOX*/
-#quote-box {
-  font-family: 'Raleway';
-}
-
-
-/*COPYRIGHT*/
-
-#footer {
-  font-family: 'Raleway';
-  font-weight:  bold ;
-  color: #00008B;
-  padding-top: 30px;
-}
+  background-image: url(./images/background.png);
+ }
+ 
+ /*TITLE*/
+ 
+ #title {
+ font-family: 'Lora';
+ color: #00008B;
+ }
+ 
+ .movieImage {
+  width: 200px;
+  border: solid #FF0000 4px;
+ }
+ 
+ /*BUTTON*/
+ #new-quote-button {
+   font-family: 'Lora';
+   padding: 30px;
+ }
+ 
+ .btn {
+   background-color: #00008B;
+   color: white;
+ }
+ 
+ /*QUOTE BOX*/
+ #quote-box {
+   font-family: 'Raleway';
+ }
+ 
+ 
+ /*COPYRIGHT*/
+ 
+ #footer {
+   font-family: 'Raleway';
+   font-weight:  bold ;
+   color: #00008B;
+   padding-top: 30px;
+ }
