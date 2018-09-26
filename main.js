@@ -6,14 +6,18 @@ const quotes = [
   "“Brennan, that is the voice of an angel. Brennan I can’t even make eye contact with you right now. Your voice is like a combination of Fergie and Jesus.” — Dale", 
   "“Did we just become best friends?” — Brennan"];
   
-  // create variable with equation for random number
-  
+  // create random quote and change inner HTML on quote
   let newQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  function randomQuote() {
+    $("#quote").innerHTML = quotes[newQuote];
+   };
   
-  // create on click listener that generates new quote everytime 
+  // create on click listener that generates new quote everytime it is clicked
   
   $(document).ready(function() {
     $("#quote-button").on("click", function(){
-        console.log(newQuote);
+      for(let i = 0; i < quotes.length; i++){
+       console.log(quotes[Math.floor(Math.random() * quotes.length)]);
+      };
     });
     });
